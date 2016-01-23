@@ -1,5 +1,5 @@
 {
-    "name": "php-ffmpeg/php-ffmpeg",
+    "name": "congpeijun/php-ffmpeg",
     "type": "library",
     "description": "FFMpeg PHP, an Object Oriented library to communicate with AVconv / ffmpeg",
     "keywords": ["video processing", "video", "audio processing", "audio", "avconv", "ffmpeg", "avprobe", "ffprobe"],
@@ -19,7 +19,7 @@
     "require": {
         "php"                          : ">=5.3.3",
         "alchemy/binary-driver"        : "~1.5",
-        "doctrine/cache"               : "~1.0",
+        "doctrine/cache"               : "v1.5.4",
         "evenement/evenement"          : "~1.0",
         "neutron/temporary-filesystem" : "~2.1, >=2.1.1"
     },
@@ -34,11 +34,6 @@
     "autoload": {
         "psr-0": {
             "FFMpeg": "src"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.5-dev"
         }
     }
 }
